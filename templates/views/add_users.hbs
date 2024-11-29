@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Header, Footer, and Left Sidebar</title>
+    <script src="/js/jquery-3.7.1.js"></script>
+    <script src="/js/add_users.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/add_users.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Global Trade Connect</h1>
+    </header>
+
+    <!-- Left Sidebar Navigation -->
+    <nav>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/users">User</a></li>
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">Vendor</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Catogaries</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="content">
+        <h2>ADD USERS</h2>
+        <div class="container">
+            <div class="row btn">
+                <button id="backBtn">Back</button>
+            </div>
+
+            <form id="userForm">
+                <div class="row">
+                    <div class="col-2">
+                        <label>First Name</label>
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" id="fName" required>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-2">
+                        <label>Last Name</label>
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" id="lName" required>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-2">
+                        <label>Email</label>
+                    </div>
+                    <div class="col-sm">
+                        <input type="email" id="email" required>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-2">
+                        <label>Password</label>
+                    </div>
+                    <div class="col-sm">
+                        <input type="password" id="pwd1" required>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-2">
+                        <label> Confirm Password</label>
+                    </div>
+                    <div class="col-sm">
+                        <input type="password" id="pwd2" required>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-2">
+                        <input type="submit" value="Save">
+                    </div>
+                    <br>
+                    <div class="col-sm">
+                        <input type="reset" value="Reset">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

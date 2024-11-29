@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Header, Footer, and Left Sidebar</title>
+    <script src="/js/jquery-3.7.1.js"></script>
+    <script src="/js/products.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/products.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Global Trade Connect</h1>
+    </header>
+
+    <!-- Left Sidebar Navigation -->
+    <nav>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/users">User</a></li>
+            <li><a href="/admin">Admin</a></li>
+            <li><a href="/vendors">Vendor</a></li>
+            <li><a href="/products">Product</a></li>
+            <li><a href="#">Catogaries</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="content">
+            <h2>PRODUCT</h2>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <button>Search</button>
+        </div>
+        <div class="btn">
+            <button id="addBtn">ADD</button>
+            <button id="editBtn">EDIT</button>
+            <button id="deleteBtn">DELETE</button>
+        </div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Vendor Name</th>
+                <th>Quantity Available</th>
+                <th>Revenue</th>
+            </tr>
+            <tr>
+                    <td>Pencil</td>
+                    <td>vendor1</td>
+                    <td>100</td>
+                    <td>4000</td>
+            </tr>
+            <tr>
+                    <td>Pen</td>
+                    <td>Vendor2</td>
+                    <td>250</td>
+                    <td>5000</td>
+            </tr>
+            <tr>
+                    <td>Shampoo</td>
+                    <td>Vendor3</td>
+                    <td>300</td>
+                    <td>8000</td>
+            </tr>
+            <tr>
+                <td><button>Preview</button></td>
+                <td><button>Next</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Left sidebar styles */
+nav {
+    width: 250px;
+    height: 100vh; /* Full height */
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Content area */
+.content {
+    margin-left: 270px; /* To prevent overlap with the sidebar */
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: auto;
+        position: static;
+        padding-top: 10px;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    footer {
+        position: static;
+    }
+}

@@ -1,0 +1,11 @@
+.btn {
+    float: right;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #28a745;
+    padding: 8px;
+    margin-left: 15px;
+    font-weight: bolder;
+}

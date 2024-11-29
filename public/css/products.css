@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #28a745;
+  }
+  
+  .menu a {
+    color: gray;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+  
+  .menu {
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    float: right;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    background-color: #28a745;
+    padding: 8px;
+    margin-left: 15px;
+    font-weight: bolder;
+  }
+  
+  i {
+    font-size: 30px !important;
+    float: right;
+  }
+  
+  th:first-child {
+    width: 20px;
+  }
+
+  
